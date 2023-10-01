@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #40c0d8;
+    background-image: linear-gradient(to bottom left, rgb(87, 87, 228) ,hotpink)
+}
+
+.profile-form{
+    display:flex ;
+    flex-direction:column ;
+   box-shadow:2px 3px 4px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    position:relative;
+    bottom:40px;
+    grid-gap:3px;
+    
+}
+
+label, input {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding:10px;
+
+}
+
+h1{
+    text-align:center;
+    position:relative;
+    bottom:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    font-size:larger;
+    font-weight:bold;
+    font-family:cursive;
+    background-color: beige;
+    position:relative;
+    left:32%;
+    bottom:40px;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    box-shadow:2px 2px 3px black;
+}
+
+form{
+    display:flex;
+    justify-content: space-around;
+}
+
+button{
+    align-items: center;
+}
+
+input{
+    font-family:fantasy;
+}
+
+label{
+    font-weight:bold;
+    font-size:1.2rem;
+}
